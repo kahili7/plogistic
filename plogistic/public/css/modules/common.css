@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+body{
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+	background-color: white;
+	font-size: 0.7em;
+}
+div.logoheader{
+	margin: 10px 0px 0px 0px;
+	padding-bottom: 10px;
+	border-bottom:2px solid orange;
+}
+h3{
+	font-size:1.1em;
+	line-height:1;
+	margin:0 0 1em 5px;
+	font-weight: bold;
+}

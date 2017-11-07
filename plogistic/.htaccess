@@ -1,0 +1,18 @@
+Options +FollowSymLinks
+Options -Indexes
+php_flag register_globals off
+
+DirectoryIndex index.php index.html
+
+#php_value memory_limit 16M
+
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /perilogistic/
+RewriteCond $1 !^(index\.php|uploads|robots\.txt|favicon\.ico)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /perilogistic/index.php/$1 [L,QSA] 
+</IfModule>

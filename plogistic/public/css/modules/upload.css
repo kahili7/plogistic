@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+#loader_overlay {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 300;
+}
+
+.loader_overlay_BG {
+    background-color: #000;
+    opacity: 0.75;
+}
+
+#loader {
+    background: #FFF none repeat scroll 0 0;
+    border: 2px solid #d6c493;
+    left: 50%;
+    top: 40%;
+    width: 100px;
+    height: 100px;
+    z-index: 301;
+    position: fixed;
+    text-align: center;
+}
+
+#loader.loading {
+    background: #fff url(../images/load/loading.gif) no-repeat center center;
+}

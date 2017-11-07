@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+div.grid{
+	background:white url(../images/bg/grid_h.gif) repeat-x top;
+	color:#444444;
+	padding-top: 10px;
+	margin: 10px 0 0 0;
+}
+
+div.grid table{
+	border:1px solid #DAD9A9;
+}
+
+div.grid table tr td.gridHeader{
+	background:#EBEBED none repeat scroll 0 0;
+	border-color:#CCCCCC;
+	border-style:solid none;
+	border-width:1px medium;
+	font-weight:bold;
+	padding:3px 4px;
+	text-align:left;	
+}
+
+div.grid table tr td{
+	border:1px solid #CCCCCC;
+	padding: 1px 2px;
+}
+
+div.grid table tr:HOVER {
+	background-color: #f6f6f6;
+}

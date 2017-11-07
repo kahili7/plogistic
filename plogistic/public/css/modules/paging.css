@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+#paging{  
+	padding:5px;  
+   	font-family:Arial, Helvetica, sans-serif;  
+	font-size:12px;  
+	color:#000000;  
+	font-weight:bold;  
+	margin: 0px 0px;
+}  
+#paging a{  
+	padding:1px 2px 1px 2px;  
+	margin:0px 0px 0px 0px;  
+	border:1px solid #94C1E8;  
+	background:#FFFFFF;  
+	color:#CCCCCC;  
+	text-decoration:none;
+	
+}  
+
+#paging a:hover{  
+	border:1px solid #94C1E8;  
+	background:#94C1E8;  
+	color:#FFFFFF;  
+	text-decoration:none;  
+}  

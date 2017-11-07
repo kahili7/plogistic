@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+fieldset.login{
+	background-color:#F6F6F6;
+	border-bottom:1px solid #DAD9A9;
+	border-top: 3px solid orange;
+	border-right: none;
+	border-left: none;
+}
+
+fieldset.login legend{
+	padding: 0 5px;
+}
+
+fieldset.login input{
+	padding: 2px;
+}

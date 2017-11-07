@@ -1,0 +1,4 @@
+<?
+interface Ktmpl_NodeOutputInterface
+{
+}
